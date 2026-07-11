@@ -1,6 +1,6 @@
 FROM node:20
 WORKDIR /opt/server
-COPY *./jS .
+COPY *.js .
 COPY *.json .
 ENV REDIS_HOST=redis
 ENV CATALOGUE_HOST=catalogue
