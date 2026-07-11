@@ -2,6 +2,7 @@ FROM node:20
 WORKDIR /opt/server
 COPY package.json .
 COPY server.js .
+RUN npm install
 ENV REDIS_HOST=redis
 ENV CATALOGUE_HOST=catalogue
 ENV CATALOGUE_PORT=8080
