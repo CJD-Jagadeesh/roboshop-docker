@@ -1,7 +1,7 @@
 FROM node:20
 WORKDIR /opt/server
-COPY *.js .
-COPY *.json .
+COPY package.json .
+COPY server.js .
 ENV REDIS_HOST=redis
 ENV CATALOGUE_HOST=catalogue
 ENV CATALOGUE_PORT=8080
