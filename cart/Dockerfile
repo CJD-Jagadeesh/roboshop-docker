@@ -1,5 +1,5 @@
 FROM node:20
-WORKDIR /app
+WORKDIR /opt/server
 COPY *./jS .
 COPY *.json .
 ENV REDIS_HOST=redis
