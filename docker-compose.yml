@@ -1,7 +1,6 @@
 networks:
   default:
     driver: bridge
-    name: roboshop
 
 services:
   mongodb:
